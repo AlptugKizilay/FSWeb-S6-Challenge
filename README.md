@@ -69,3 +69,13 @@ Gerekli şeyleri bitirdikten sonra çalışmanızı daha da ileri götürebilirs
 1. Bileşen statelerini tanımlayın.
 1. Propları açıklayın.
 1. Side effektler nelerdir ve bir React bileşenindeki efektleri belirli state veya prop değişiklikleriyle nasıl senkronize edersiniz?
+
+React JS, kullanıcı arayüzü oluşturmak için kullanılan bir JavaScript kütüphanesidir. React, özellikle büyük ve karmaşık web uygulamaları için tasarlanmıştır. React, web uygulamalarının karmaşıklığını azaltarak, yeniden kullanılabilir bileşenler aracılığıyla daha düzenli ve yapılandırılmış bir kod yapısı sunar. Ayrıca, performans sorunlarını azaltmak için sanal bir DOM kullanır.
+
+Bileşen stateleri, bir bileşenin durumunu tanımlamak için kullanılan değişkenlerdir. Bileşen stateleri, React bileşenleri içindeki değişikliklerin izlenmesi ve yeniden oluşturulması için kullanılır. Bileşen stateleri, bir bileşenin durumunu saklar ve bileşenin davranışını belirler. Örneğin, bir sayfadaki butonların durumunu saklamak için bir bileşen durumu kullanılabilir.
+
+Proplar, bileşenler arasında veri iletmek için kullanılır. Bir bileşenin bir başka bileşene veri aktarması gerektiğinde, bu veri prop olarak adlandırılır. Prop'lar, bir bileşenin özellikleri olarak düşünülebilir. Bir bileşene verilen prop'lar, bileşen içindeki işlevlere parametre olarak aktarılabilir.
+
+Side effect'ler, bir bileşenin stateleri veya propları değiştirmeden bileşenin görünümünü değiştiren işlemlerdir. Örneğin, bir bileşenin render işlevindeki bir yan etki, bir API çağrısı yapmak veya bir dosya yüklemek olabilir. Bu etkiler, bileşenin yeniden oluşturulması gerektiğinde uygun bir şekilde senkronize edilmelidir.
+
+React bileşenindeki yan etkileri senkronize etmek için React Hooks kullanılabilir. useEffect() kancası, bileşen stateleri veya propları değiştikçe çalışacak işlevleri tanımlamak için kullanılır. Bu şekilde, bileşenin yeniden oluşturulması gerektiğinde yan etkiler senkronize edilir. Bu işlev, bileşen içinde bir değişiklik yapmadan önce çalıştırılabilir ve bileşenin görünümünü etkilemez.
